@@ -588,19 +588,30 @@ strong {
     font-size: 20px;
 }
 
-footer{
+.footer {
     padding: 60px 0;
-    margin-top: 100px;
+    font-size: 14px;
     background: #2e3138;
+    color: #abb0ba;
+    text-align: center;
+    margin-top: 60px;
 }
 
-footer p{
+.footer  p{
     color: #abb0ba;
     font-size: 14px; 
-    line-height: 22px;
-    margin: 0;
+    line-height: 20px;
+   margin-bottom: 15px;
 }
-
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer ul li a {
+    color: #abb0ba;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+}
 .logo h2 {
     font-size: 22px;
     font-weight: 700;
